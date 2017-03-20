@@ -10,6 +10,16 @@
 
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style type="text/css">
+	@media only screen and (max-width: 767px) {
+    		footer { position: relative; }
+	}
+
+	@media only screen and (min-width: 768px) {
+    		footer { position: fixed; }
+	}
+	</style>
+
 </head>
 
 <body>
@@ -65,7 +75,7 @@
 		</div>
 	</div>
 	</form>
-	<footer class="page-footer" style="position:fixed; width: 100%; bottom:0">
+	<footer class="page-footer" style="width: 100%; bottom:0">
 		<div class="footer-copyright">
 			<div class="container">
 				<center>By Tom Moore Web Design (c) 2017</center>
