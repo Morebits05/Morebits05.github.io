@@ -1,5 +1,4 @@
 function submitForm() {
-    var form = document.getElementById("contact_form");
-    form.action = "mailto:tom_moore36@hotmail.com";
-    form.submit();
+$("#contact_form").post("mailto:tom_moore36@hotmail.com")
+$("#contact_form").serialize());
 }
